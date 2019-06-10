@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_trigger_auto_script">
+    <sys_flow_trigger_auto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>Trigger:cc2e870cdb023300e4f3560868961964</name>
+        <run_as display_value="Justin Abbott">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period>1971-01-01 00:00:01</run_period>
+        <run_start>2019-06-10 15:53:28</run_start>
+        <run_time/>
+        <run_type>periodically</run_type>
+        <script><![CDATA[sn_flow_trigger.FlowTriggerAPI.fireTimerTrigger('cc2e870cdb023300e4f3560868961964');]]></script>
+        <sys_class_name>sys_flow_trigger_auto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-10 15:53:28</sys_created_on>
+        <sys_id>442e870cdb023300e4f3560868961965</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Trigger:cc2e870cdb023300e4f3560868961964</sys_name>
+        <sys_package display_value="Mobile Audit Scanner" source="x_11264_mas">264703c0db023300e4f356086896193a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Audit Scanner">264703c0db023300e4f356086896193a</sys_scope>
+        <sys_update_name>sys_flow_trigger_auto_script_442e870cdb023300e4f3560868961965</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-10 15:53:28</sys_updated_on>
+        <trigger display_value="">cc2e870cdb023300e4f3560868961964</trigger>
+        <upgrade_safe>false</upgrade_safe>
+    </sys_flow_trigger_auto_script>
+</record_update>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>populate_audit_logs</internal_name>
+        <label_cache>[{"name":"9c524f68-c603-4674-a5a6-b1f9e523fdd9.item.location","label":"2➛Hardware Record➛Location","reference":"cmn_location","reference_display":"Location","type":"reference","base_type":"reference","parent_table_name":"alm_hardware","column_name":"location"},{"name":"9c524f68-c603-4674-a5a6-b1f9e523fdd9.item.assigned_to","label":"2➛Hardware Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"alm_hardware","column_name":"assigned_to"},{"name":"de0c1b20-7eb0-49fa-8d64-a45b2703f0a2.table_name","label":"2.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"de0c1b20-7eb0-49fa-8d64-a45b2703f0a2.record","label":"2.1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"9c524f68-c603-4674-a5a6-b1f9e523fdd9.item","label":"2➛Hardware Record","reference":"alm_hardware","reference_display":"Hardware","type":"reference","base_type":"reference"},{"name":"49831b6a-92df-44c5-82c7-eb42808776b9.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"49831b6a-92df-44c5-82c7-eb42808776b9.Table","label":"1➛Hardware Table","reference":"alm_hardware","reference_display":"Hardware","type":"table_name","base_type":"table_name"},{"name":"49831b6a-92df-44c5-82c7-eb42808776b9.Records","label":"1➛Hardware Records","reference":"alm_hardware","reference_display":"Hardware","type":"records","base_type":"records"}]</label_cache>
+        <latest_snapshot>443e0b0cdb023300e4f356086896190c</latest_snapshot>
+        <master_snapshot>0c2e870cdb023300e4f3560868961938</master_snapshot>
+        <name>Populate Audit Logs</name>
+        <outputs/>
+        <remote_trigger_id>cc2e870cdb023300e4f3560868961964</remote_trigger_id>
+        <run_as>system</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-10 15:49:36</sys_created_on>
+        <sys_id>a73d4788db023300e4f3560868961999</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Populate Audit Logs</sys_name>
+        <sys_package display_value="Mobile Audit Scanner" source="x_11264_mas">264703c0db023300e4f356086896193a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Audit Scanner">264703c0db023300e4f356086896193a</sys_scope>
+        <sys_update_name>sys_hub_flow_a73d4788db023300e4f3560868961999</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-06-10 15:53:44</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=a73d4788db023300e4f3560868961999"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a73d4788db023300e4f3560868961999"/>
+</record_update>
